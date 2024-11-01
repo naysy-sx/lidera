@@ -468,10 +468,11 @@ body {
   background-color: var(--color-light);
   border-radius: 50%;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .slider-arrow:hover {
-  background-color: var(--color-accent-hover);
+  background-color: var(--color-accent-light);
 }
 
 .slider-pager {
