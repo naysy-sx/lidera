@@ -973,6 +973,7 @@ MEDIA
 
   .section:not(:has(.intro)) {
     padding: 36px 0;
+    overflow: hidden;
   }
 
 
