@@ -467,6 +467,11 @@ body {
   align-items: center;
   background-color: var(--color-light);
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-arrow:hover {
+  background-color: var(--color-accent-hover);
 }
 
 .slider-pager {
