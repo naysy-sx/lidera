@@ -680,6 +680,7 @@ body {
   border-radius: 50%;
   background-position: center center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .business-slider-prev {
