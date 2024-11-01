@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое</title>
+  <link rel="stylesheet" href="/static/css/reset.css">
+  <link rel="stylesheet" href="/static/fonts/gilroy/stylesheet.css">
+
+  <link rel="stylesheet" href="/static/vendors/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="/static/css/styles.css">
+
+
+  <script src="/static/vendors/jquery-3.7.1.min.js"></script>
+  <script src="/static/vendors/swiper/swiper-bundle.min.js"></script>
+
+
+</head>
+
+<body>
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="header-row">
+        <div class="header-left">
+          <div class="flex flex-center">
+            <a href="/" class="logo">
+              <img src="/static/img/logo.svg" alt="logo.svg">
+            </a>
+            <div class="lang">
+              <input type="checkbox" id="lang">
+              <label class="lang-label" for="lang">
+                <b class="lang-arrow"></b>
+              </label>
+              <ul class="lang-dropdown">
+                <li><a href="/">Руc</a></li>
+                <li><a href="/">Каз</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <input type="checkbox" id="mobile-switcher" hidden>
+          <label for="mobile-switcher" class="mobile-button"></label>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link" title="О портал">О портале</a>
+                <div class="subnav">
+                  <span class="subnav-title">О портале</span>
+                  <ul class="subnav-list">
+                    <li class="subnav-item">
+                      <a href="#" class="subnav-link" title="Продукты КМФ">Продукты КМФ</a>
+                    </li>
+                    <li class="subnav-item">
+                      <a href="#" class="subnav-link" title="Новости / Анонсы">Новости / Анонсы</a>
+                    </li>
+                    <li class="subnav-item">
+                      <a href="#" class="subnav-link" title="О программе KMF Isker Hanymy">О программе KMF Isker
+                        Hanymy</a>
+                    </li>
+                    <li class="subnav-item">
+                      <a href="#" class="subnav-link" title="Истории успеха">Истории успеха</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" title="Бизнес">Бизнес</a>
+                <div class="subnav">
+                  <span class="subnav-title">Бизнес</span>
+                  <ul class="subnav-list">
+                    <li class="subnav-item">
+                      <a href="#" class="subnav-link" title="Какой-то пункт 1">Какой-то пункт 1</a>
+                    </li>
+                    <li class="subnav-item">
+                      <a href="#" class="subnav-link" title="Какой-то пункт пункт пункт пункт 2">Какой-то пункт пункт
+                        пункт пункт 2</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" title="Обучение">Обучение</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" title="Забота о себе">Забота о себе</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="button button-default">Премия KMF Isker hanymy</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">
+                  <img src="/static/img/header-decor.svg" alt="header-decor.svg">
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main" role="main">
+    <section class="section">
+      <div class="intro swiper">
+        <div class="intro-slider swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="intro-item">
+              <div class="intro-content">
+                <div class="flex flex-column">
+                  <h1 class="h1">
+                    KMF
+                    <br>
+                    и Фонд KMF-Демеу
+                  </h1>
+                  <p class="intro-text">Для нас важно поддерживать социальное предпринимательство</p>
+                  <div class="intro-button-wrapper">
+                    <a href="#" class="button button-large">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="intro-image">
+                <img src="/static/img/intro-1.png" alt="intro-1.png">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="intro-item">
+              <div class="intro-content">
+                <div class="flex flex-column">
+                  <h1 class="h1">
+                    Это второй слайд
+                    <br>
+                    и другая картинка
+                  </h1>
+                  <p class="intro-text">Для нас важно получить работу</p>
+                  <div class="intro-button-wrapper">
+                    <a href="#" class="button button-large">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="intro-image">
+                <img src="https://picsum.photos/id/237/1200/1300" alt="intro-2.png">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="intro-item">
+              <div class="intro-content">
+                <div class="flex flex-column">
+                  <h1 class="h1">
+                    Третий
+                    <br>
+                    и ещё одна картинка
+                  </h1>
+                  <p class="intro-text">Для нас важно получить работу</p>
+                  <div class="intro-button-wrapper">
+                    <a href="#" class="button button-large">Подробнее</a>
+                  </div>
+                </div>
+              </div>
+              <div class="intro-image">
+                <img src="https://picsum.photos/seed/picsum/900/700" alt="intro-3.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-nav">
+        <div class="container">
+          <div class="slider-nav-row">
+            <a class="slider-arrow slider-arrow-prev">
+              <img src="/static/img/arrow-slider-prev.svg" alt="next">
+            </a>
+            <a class="slider-arrow slider-arrow-next">
+              <img src="/static/img/arrow-slider-next.svg" alt="next">
+            </a>
+            <div class="slider-pager">Pager</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="promo">
+          <p class="promo-message gradient-text">Друзья! <br>Представляем Вашему вниманию портал KMF Isker hanymy –
+            платформу для получения актуальной и полезной информации для Вас и Вашего бизнеса</p>
+          <div>
+            <a href="#" class="button button-large">О программе</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section lead">
+      <div class="container">
+        <article class="story">
+          <div class="story-label">
+            <strong class="gradient-text">Истории успеха</strong>
+          </div>
+          <h2 class="story-title h2">Алимбекова Бакыт - Салон эксклюзивных шляп "Elegant"</h2>
+          <figure class="story-picture">
+            <img src="/static/img/success.png" alt="success.png">
+          </figure>
+          <div class="story-content">
+            <p>Салон эксклюзивных шляп Elegant работает на казахстанском рынке с 1999 года. Бизнес основала Алимбекова
+              Бакыт Калиевна и ее коллеги по цеху. Компания выпускает шляпы, головные уборы для силовых структур, и с
+              недавних времен дизайнерскую верхнюю одежду.</p>
+            <p>Мы побывали в гостях в салоне Elegant и узнали о том, как происходит создание и сборка индивидуальных
+              шляп,
+              с какими трудностями столкнулась компания в 2020 году и что она планирует на ближайшее будущее.</p>
+
+            <a href="/" class="button button-default">Читать интервью</a>
+          </div>
+
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <article class="business">
+          <h2 class="h2 gradient-text text-center">Бизнес</h2>
+          <div class="business-wrapper swiper">
+            <div class="business-slider swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="business-card">
+                  <a href="/" class="business-card-link" title="Подробнее">
+                    <figure class="business-card-image">
+                      <img src="/static/img/business-1.png" alt="business-1.png">
+                    </figure>
+                  </a>
+                  <div class="business-card-header">
+                    <h3 class="h3 business-card-title">
+                      <a href="/">Услуги для автомобилей "Lux-service"</a>
+                    </h3>
+                    <p class="business-card-info">Тараз, Абая 291</p>
+                  </div>
+                  <div class="business-card-body">
+                    <p>Ателье для автомобилей "Lux-service" предоставляют пошив чехлов, перетяжка салона, EVA полики и
+                      шумоизоляцию.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="business-card">
+                  <a href="/" class="business-card-link" title="Подробнее">
+                    <figure class="business-card-image">
+                      <img src="/static/img/business-2.png" alt="business-2.png">
+                    </figure>
+                  </a>
+                  <div class="business-card-header">
+                    <h3 class="h3 business-card-title"><a href="/">Агробизнес - животноводство, пчеловодство</a></h3>
+                    <p class="business-card-info">с. Лепси, Алматинская область</p>
+                  </div>
+                  <div class="business-card-body">
+                    <p>Смешанное сельское хозяйство - бизнес, который занимается выращиванием растений (растениеводство)
+                      и
+                      разведением животных</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="business-card">
+                  <a href="/" class="business-card-link" title="Подробнее">
+                    <figure class="business-card-image">
+                      <img src="/static/img/business-3.png" alt="business-3.png">
+                    </figure>
+                  </a>
+                  <div class="business-card-header">
+                    <h3 class="h3 business-card-title"><a href="/">Семейная столовая "Мерей"</a></h3>
+                    <p class="business-card-info">Сарканд, Толе би 15/2</p>
+                  </div>
+                  <div class="business-card-body">
+                    <p>В столовой "Мерей" можно насладиться вкуснейшим завтраком или сытным обедом,
+                      недорогим полдником
+                      и
+                      заботливо приготовленным ужином. Рядом...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="business-card">
+                  <a href="/" class="business-card-link" title="Подробнее">
+                    <figure class="business-card-image">
+                      <img src="/static/img/business-2.png" alt="business-2.png">
+                    </figure>
+                  </a>
+                  <div class="business-card-header">
+                    <h3 class="h3 business-card-title"><a href="/">Агробизнес - животноводство, пчеловодство</a></h3>
+                    <p class="business-card-info">с. Лепси, Алматинская область</p>
+                  </div>
+                  <div class="business-card-body">
+                    <p>Смешанное сельское хозяйство - бизнес, который занимается выращиванием растений (растениеводство)
+                      и
+                      разведением животных</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="business-card">
+                  <a href="/" class="business-card-link" title="Подробнее">
+                    <figure class="business-card-image">
+                      <img src="/static/img/business-1.png" alt="business-1.png">
+                    </figure>
+                  </a>
+                  <div class="business-card-header">
+                    <h3 class="h3 business-card-title"><a href="/">Услуги для автомобилей "Lux-service"</a></h3>
+                    <p class="business-card-info">Тараз, Абая 291</p>
+                  </div>
+                  <div class="business-card-body">
+                    <p>Ателье для автомобилей "Lux-service" предоставляют пошив чехлов, перетяжка салона, EVA полики и
+                      шумоизоляцию.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="business-nav-row">
+            <div class="business-slider-arrow business-slider-prev"></div>
+            <div class="business-pager">
+              <div class="business-pager-list"></div>
+            </div>
+            <div class="business-slider-arrow business-slider-next"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <article class="learning">
+          <h2 class="h2 gradient-text text-center">Обучение</h2>
+
+          <div class="grid">
+            <div class="learning-card">
+              <div class="learning-body">
+                <h3 class="h3 gradient-text">Как создать и продвигать бизнес аккаунт в Instagram</h3>
+              </div>
+              <div class="learning-footer">
+                <a href="/" class="button button-default">Подробнее</a>
+              </div>
+            </div>
+            <div class="learning-card">
+              <div class="learning-body">
+                <h3 class="h3 gradient-text">Что лучше выбрать – ИП или ТОО</h3>
+                <p>Рабиям Серикбаева, аудитор FinEx Audit Company.
+                  Налоговый консультант, DipIFR ACCA, юрист</p>
+              </div>
+              <div class="learning-footer">
+                <a href="/" class="button button-default">Подробнее</a>
+              </div>
+            </div>
+            <div class="learning-card">
+              <div class="learning-body">
+                <h3 class="h3 gradient-text">Домашний бюджет и планирование</h3>
+                <p>В этом уроке Вы узнаете, как правильно управлять домашним бюджетом и ставить финансовые цели.</p>
+              </div>
+              <div class="learning-footer">
+                <a href="/" class="button button-default">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <article class="news">
+          <h2 class="h2 gradient-text text-center">Новости и анонсы</h2>
+
+          <div class="grid">
+            <a class="news-card">
+              <img src="/static/img/news-1.png" alt="news-1.png">
+              <div class="news-card-layer"></div>
+              <h3 class="h3">Результаты премии "KMF Isker hanymy 2021" ("Бизнес-леди KMF 2021")</h3>
+            </a>
+            <a class="news-card">
+              <img src="/static/img/news-2.png" alt="news-2.png">
+              <div class="news-card-layer"></div>
+              <h3 class="h3">Международный женский форум</h3>
+            </a>
+            <a class="news-card">
+              <img src="/static/img/news-3.png" alt="news-3.png">
+              <div class="news-card-layer"></div>
+              <h3 class="h3">Образовательная программа «Мама-предприниматель»</h3>
+            </a>
+            <a class="news-card">
+              <img src="/static/img/news-4.png" alt="news-4.png">
+              <div class="news-card-layer"></div>
+              <h3 class="h3">Международное совещание Женского форума</h3>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer lead">
+    <div class="container">
+      <div class="flex">
+        <div class="footer-start">
+          <div class="footer-start-body">
+            <a href="/">
+              <img src="/static/img/footer-logo.svg" alt="footer-logo.svg">
+            </a>
+            <a href="/">
+              <img src="/static/img/header-decor.svg" alt="header-decor.svg">
+            </a>
+            <ul class="social-list flex">
+              <li class="social-item">
+                <a class="social-link">
+                  <img src="/static/img/icon-facebook.svg" alt="icon-facebook.svg">
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link">
+                  <img src="/static/img/icon-telegram.svg" alt="icon-telegram.svg">
+                </a>
+              </li>
+              <li class="social-item">
+                <a class="social-link">
+                  <img src="/static/img/icon-insta.svg" alt="icon-insta.svg">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-first">
+          <div class="footer-block">
+            <strong class="footer-block-title">О портале</strong>
+            <ul class="footer-list">
+              <li>
+                <a href="/">Продукты КМФ</a>
+              </li>
+              <li>
+                <a href="/">Новости / Анонсы</a>
+              </li>
+              <li>
+                <a href="/">О программе KMF</a>
+              </li>
+              <li>
+                <a href="/">Истории успеха</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-second">
+          <div class="footer-block">
+            <strong class="footer-block-title">Обучение</strong>
+            <ul class="footer-list">
+              <li>
+                <a href="/">Наставничество</a>
+              </li>
+              <li>
+                <a href="/">Саморазвитие</a>
+              </li>
+              <li>
+                <a href="/">Здоровье</a>
+              </li>
+              <li>
+                <a href="/">Полезные советы</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-third">
+          <div class="footer-block">
+            <strong class="footer-block-title">Бизнес</strong>
+            <ul class="footer-list">
+              <li>
+                <a href="/">Каталог</a>
+              </li>
+              <li>
+                <a href="/">Made in KZ</a>
+              </li>
+              <li>
+                <a href="/">Я социальный предприниматель</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+  const intro = new Swiper('.intro', {
+    loop: true,
+    slidesPerView: 1,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    speed: 300,
+    pagination: {
+      el: '.slider-pager',
+    },
+
+    navigation: {
+      nextEl: '.slider-arrow-next',
+      prevEl: '.slider-arrow-prev',
+    }
+  });
+
+  const slider = new Swiper('.business-wrapper', {
+    loop: true,
+
+    breakpoints: {
+      900: {
+        slidesPerView: 3
+      },
+      0: {
+        slidesPerView: 2
+      }
+    },
+
+    pagination: {
+      el: '.business-pager-list',
+    },
+
+    navigation: {
+      nextEl: '.business-slider-next',
+      prevEl: '.business-slider-prev',
+    }
+  });
+</script>
+<script src="/static/js/main.js"></script>
+
+</html>
