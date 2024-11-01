@@ -963,6 +963,13 @@ MEDIA
 }
 
 @media(max-width: 1000px) {
+
+  .section:not(:has(.intro)) {
+    padding: 36px 0;
+  }
+
+
+
   .nav {
     display: none;
   }
